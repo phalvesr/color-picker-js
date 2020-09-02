@@ -1,1 +1,1 @@
-# color-picker-js
+# Color Picker JS
