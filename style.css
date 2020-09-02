@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: rgb(240,240,240);
+    --main-font: 'Arial', sans serif;
+}
+
+body {
+    background-color: rgb(128,128,128,.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    color: var(--text-color);
+    font-family: var(--main-font);
+}
+
+label {
+    display: block;
+}
+
+#Red,
+#Green,
+#Blue,
+#Alpha {
+    text-align: center;
+    min-width: 20vw;
+}
+
+#red-value, 
+#green-value, 
+#blue-value,
+#alpha-value {
+    text-align: center;
+}
+
+.contant-wrapper {
+    background-color: #111;
+    padding: 3rem;  
+    border-radius: 8px;
+}
+
+#color-rgba-format {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #111;
+    border: none;
+    color: rgb(240,240,240);
+    font-size: 16px;
+}
+
+#color-rgba-format:focus {
+    outline: none;
+}
+
+.copy-btn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    filter: invert(1);
+}
+
+.copy-area {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+}
